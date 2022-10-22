@@ -5,7 +5,7 @@
    --- Установка windows.
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git?source=post_page
 --- выбор редактора по умолчанию
-![example](Git\src\img\git\1_defaultEditor.png)
+![example](Git/src/img/git/1_defaultEditor.png)
     
     
 
