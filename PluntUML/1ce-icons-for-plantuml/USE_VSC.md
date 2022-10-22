@@ -3,7 +3,7 @@
 
 ![example](examples/VSC/example.png)
 
-## Extensions (cntrl-shift-X)
+## Extensions (ctrl-shift-X)
  - Скачиваем два расширения:
  1. PlantUML
  2. PlantUML - Simple Viewer.   для оттображения схемой нажать: alt+D
