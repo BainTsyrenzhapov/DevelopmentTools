@@ -1,7 +1,15 @@
 # Git курс
 
-1. Введение.
-2. Основы 
+1. ## Введение.
+   Git - 1. Система контроля версий. 2. Хранилище истории разработки.
+   --- Установка windows.
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git?source=post_page
+--- выбор редактора по умолчанию
+![example](Git\src\img\git\1_defaultEditor.png)
+    
+    
+
+1. ## Основы 
    1. конфигурации
    2. Создание репозитория
    3. Права на файлы
