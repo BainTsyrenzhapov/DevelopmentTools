@@ -1,5 +1,4 @@
-<style> .heading1 { color: #4682B4}
-</style>
+<style> .heading1 {color: #4682B4} </style>
 #                   Git курс {#identifier .heading1}
 
 ## 1. Введение {#identifier .heading1} 
@@ -65,6 +64,13 @@ git config --global core.editor \
    - `git commit -am`
    - `git commit -all -m` 
 9. Удаление и переименование файлов
+- Глобальный игнор-файл. `git config --global core.excludesFiles ~/.gitignore`
+- Удаление файлов. 1) удаляем файл. 2) добавляем в индекс. 3) коммитим
+- `git rm example01.txt` - удаляет файл и добавляет изменения в индекс 
+- `git rm -r src` - ключ -r для удаления папки
+- `git rm -f example01.txt` -  git не удает файлы если в них были не сохранененые изменения. Ключ -f позволяет удалить файл без проверки.
+- `git rm -r -- cashed src` удалит из индекса, но оставит в рабочем каталоге.
+- Переименование файла git воспринимает как 2 операции удаление файла и добавление нового.
 
 ## 3. Ветки {#identifier .heading1}    
 1. Введение
