@@ -113,10 +113,25 @@ git config --global core.editor \
 
    `git checkout  -B master e5e6` - ключ -B обязательно большая буква. если ветка существует то ее он передвинет на нужный коммит.
 
-
 #### 3.6 Состояние отделенной Head
-#### 3.7 Создание и переключение
+   ~git checkout e2e6~ переключение на произвольный  коммит - detached HEAD
 
+### 3.7 Восстановление предыдущих версий файлов
+   - `git checkout e2e5 index.html`  - восстановление файла index.html из коммита e2e5 и авт помещение в индекс;
+   - `git checkout master index.html` - восстановление файла index.html из HEAD ветки master;
+   - `git reset index.html` - удаление файла из индекса
+   - `git checkout HEAD index.html` - восстановление файла index.html из коммита HEAD и авт помещение в индекс;
+   - `git checkout index.html`      - восстановление файла index.html из коммита HEAD и авт помещение в индекс;
+   - `git checkout -- master` -- воспринимается как путь;
+   #### 3.8 Просмотр истории и старых файлов, символы ~, ^, @, поиск c:/
+   - `git log` - просмотр коммитов подробно;
+   - `git log --oneline` - просмотр коммитов кратко в одну линию;
+   - `git log master --oneline`;
+   - `git show main` просмотр коммита HEAD ветки master;
+   - `git show HEAD~` просмотр коммита на  1 коммит назад от HEAD ветки master;
+   - `git show HEAD~2` просмотр коммита на  2 коммит назад от HEAD ветки master;
+   - `git show HEAD~2 --` просмотр коммита на  2 коммит назад от HEAD ветки master КРАТКО;
+   - 
 
 <details>
 
