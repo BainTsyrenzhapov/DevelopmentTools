@@ -131,7 +131,10 @@ git config --global core.editor \
    - `git show HEAD~` просмотр коммита на  1 коммит назад от HEAD ветки master;
    - `git show HEAD~2` просмотр коммита на  2 коммит назад от HEAD ветки master;
    - `git show HEAD~2 --` просмотр коммита на  2 коммит назад от HEAD ветки master КРАТКО;
-   - 
+   - `git show @~2` просмотр коммита на  2 коммит назад от HEAD ветки master ИЛИ  под windows powershell `git show '@~'`;
+   - `git show @~ :index.html` просмотр файла;
+   
+
 
 <details>
 
